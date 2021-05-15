@@ -1,0 +1,480 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    padding: 0 0px;
+}
+
+.slide{
+    width: 100%;
+    height: 650px;
+    position: relative;
+    background-image: url("mobile/about-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.header{
+    position: relative;
+    padding: 60px 66px;
+}
+
+.header .logo{
+    float: left;
+}
+
+.header .menu{
+    float: right;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.menu ul li a{
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: Myriad Pro;
+}
+
+.menu ul li a:hover{
+    color: blue;
+    background: none;
+}
+
+.slideTitle{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Myriad Pro;
+}
+
+.slideTitle h1{
+    font-size: 50px;
+}
+
+.slideTitle p{
+    font-size: 16px;
+    padding: 0 80px;
+    text-align: center;
+}
+
+.content{
+    padding: 0 40px;
+}
+
+.content-title{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 35px 0;
+    float: left;
+}
+
+.content-title h2{
+    font-size: 38px;
+    font-family: Myriad Pro;
+    color: #333333;
+}
+
+.border span{
+    width: 9px;
+    height: 9px;
+    margin: 0 3px;
+    background-color: rgb(0, 140, 255);
+    border-radius: 100px;
+    display: inline-block;
+}
+
+p.content-desc{
+    font-size: 18px;
+    color: #393838;
+    padding: 5px;
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    display: inline-block;
+    float:  left;
+    font-family: Myriad Pro;
+}
+
+.skill-section{
+    display: inline-block;
+    width: 100%;
+    float: left;
+    padding: 45px 0;
+}
+
+.skill-img{
+    width: 50%;
+    float:  left;
+}
+
+.skill-img img{
+    width: 90%;
+}
+
+.skill-content{
+    width: 50%;
+    float: right;
+}
+
+h3.skill-title{
+    font-size: 28px;
+    font-family: Myriad Pro;
+    color: rgb(0, 140, 255);
+    font-weight: 500;
+    float: left;
+    width: 100%;
+}
+
+.skills{
+    width: 100%;
+    float: left;
+    padding-top: 30px;
+}
+
+.skills i{
+    color: #393838;
+    font-family: Myriad Pro;
+    clear: both;
+    float: left;
+    font-size: 18px;
+}
+
+.skills span{
+    width: 100%;
+    height: 25px;
+    margin-top: 5px;
+    border: 1px solid #9aabcf;
+    display: inline-block;
+    float: left;
+}
+
+.skills span abbr{
+    width: 70%;
+    height: 25px;
+    background-color: #9aabcf;
+    display: inline-block;
+}
+
+.skills.speaking span abbr{
+    width: 80%;
+}
+
+.skills.efficiency span abbr{
+    width: 96%;
+}
+
+.skills.computer span abbr{
+    width: 50%;
+}
+
+.about-content,
+.desk-img{
+    width: 100%;
+    float: left;
+    display: inline-block;
+    font-family: Myriad Pro;
+    color: #393838;
+    padding: 35px 0;
+}
+
+.about-desc{
+    width: 50%;
+    float: left;
+    display: inline-block;
+}
+
+.about-desc h1{
+    padding-bottom: 10px;
+    color:rgb(0, 140, 255);
+    text-align: center;
+}
+
+.about-desc h2{
+    padding-bottom: 10px;
+}
+
+.about-img{
+    width: 45%;
+    float: right;
+    display: inline-block;
+}
+
+.desk-img img{
+    width: 30%;
+}
+
+.desk-img img.desk3img{
+    margin: 0 4%;
+}
+
+
+.clearfix{}
+
+.column{
+    width: 30%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    color: #393838;
+    font-family: Myriad Pro;
+    padding: 0 20px;
+    box-sizing: border-box;
+ 
+}
+
+.column.col2{
+    margin: 0 4%;
+}
+
+.column.col3{
+    float: right;
+}
+
+.column p{
+    padding-top: 10px;
+}
+
+.column h4{
+    color: rgb(0, 140, 255);
+}
+
+.content.ourteam{
+    padding-top: 35px;
+    clear: left;
+}
+
+.tm, .employer{
+    display: inline-block;
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    font-family: Myriad Pro;
+    padding: 25px 15px 0;
+}
+
+.employer{
+    padding: 0 35px 15px;
+}
+
+.employer.sara{
+    padding-left: 85px;
+}
+
+.employer-image{
+    width: 15%;
+    float: left;
+}
+
+.employer-image img{
+    width: 80%;
+    border-radius: 50%;
+}
+
+.employer-detail{
+    width: 70%;
+    float: left;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+
+.employer-detail h3{
+    padding-bottom: 10px;
+}
+
+.employer-detail h5{
+    padding-bottom: 10px;
+    color: rgb(0, 140, 255);
+}
+
+.employer-detail p{
+    font-weight: normal;
+}
+
+.employer-detail.jeff{
+    padding-left: 0px;
+    padding-right: 25px;
+}
+
+.portfolio{
+    padding: 0 15px;
+}
+
+.portfolio img{
+    margin: 16px;
+}
+
+.portfolio h2{
+    color: rgb(0, 140, 255);
+    text-align: center;
+}
+
+form.contactform{
+    padding: 0 45px 15px;
+}
+
+.txtfield, .message, .submit{
+    font-family: Myriad Pro;
+}
+
+.txtfield{
+    width: 48%;
+    height: 35px;
+    padding: 0 5px;
+    border: 1px solid #333333;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.txtfield.email{
+    float: right;
+}
+
+.message{
+    width: 98%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border: 1px solid #333333;
+    font-style: italic;
+}
+
+#submit{
+    display: inline-block;
+    border:2px solid #092a49;
+    color:#092a49;
+    font-size:15px ;
+    padding:15px 30px;
+    transition: .3s;
+    margin-top:-10px;
+    margin-bottom: 14px;;
+}
+#submit:hover{
+    background-color: #092a49;
+    color:white;
+}
+#testimonals{
+margin-left: 50px;
+margin-right: 50px;
+margin-bottom: 20px;
+}
+.testimonials::before{
+background:black;
+position: absolute;
+}
+#table-form{
+margin-top: 15px;
+right:19px ;
+}
+#table-form:hover{
+box-shadow: 3px 3px 3px 5px rgba(218, 226, 245, 0.685) ;
+}
+.form{
+border: 1px solid gray;
+}
+.input{
+width:280px;
+margin-left:61px ;
+}
+.form-control{
+width: 100%;
+}
+#contact-map{
+margin-top: 15px;
+}
+#contact{
+background-color: #1b1929;
+color:white;
+overflow-x: hidden;
+
+}
+#contact-add{
+padding:70px 80px 60px 80px;
+}
+#para{
+max-width: 600px;
+font-size: 18px;
+padding-bottom: 35px;
+}
+.unit{
+display:flex;
+flex:0 1 100%;
+align-items: center;
+}
+.unit-head{
+flex:0 0 auto;
+max-width: 100%;
+display: block;
+font-size: 17px;
+color:#9f97f9 !important;
+}
+.unit-body{
+margin-bottom: 20px;
+margin-left: 80px;
+}
+.unit-body-right{
+color:white;
+display: inline-block;
+font-size: 15px;
+}
+.unit-body-right:hover{
+color:#9f97f9;
+text-decoration: none;
+}
+#icons{
+padding-bottom: 20px;
+}
+#fa-fa-icons{
+font-size: 30px;
+align-items: center;
+margin-left: 30px;
+width: 50px;
+height: 50px;
+color: azure;
+
+}
+#fa-fa-icons:hover{
+color:#9f97f9;
+text-decoration: none;
+width: 35px;
+transition: .5s;
+transform: rotateY(360deg);
+}
+.offer{
+padding-top:45px ;
+}
+.offer-ul{
+list-style-type: none;
+padding-top: 30px;
+}
+.offer-line{
+line-height: 2;
+text-align: center;
+padding-bottom: 20px;
+}
+.offer-text{
+color:white;
+display: inline-block;
+font-size: 20px;
+letter-spacing :2px;
+}
+.offer-text:hover{
+color:#9f97f9;
+text-decoration: none;
+transform:translateX(-20px);
+}
